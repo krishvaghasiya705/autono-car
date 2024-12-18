@@ -1,7 +1,14 @@
 import Nextarrow from "@/assets/svg/nextarrow";
 import Link from "next/link";
 
-export function Button1({ link, Class, text }) {
+// Define the props type
+interface Button1Props {
+  link: string; // Type for the link
+  Class: string; // Type for the button class
+  text: string; // Type for the button text
+}
+
+export function Button1({ link, Class, text }: Button1Props) {
   return (
     <Link href={link}>
       <button className={Class}>

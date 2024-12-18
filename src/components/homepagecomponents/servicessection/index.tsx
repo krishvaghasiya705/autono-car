@@ -2,13 +2,14 @@ import React from "react";
 import styles from "./servicessection.module.scss";
 import Image from "next/image";
 import { Button1 } from "@/components/buttons/button";
+import { StaticImageData } from "next/image";
 
 // Define the props type
 interface ServicessectionProps {
   title: string; // Type for the title
   paragraph: string; // Type for the paragraph
   buttonlink: string; // Type for the button link
-  image: string; // Type for the image source
+  image: string | StaticImageData; // Type for the image source, allowing both string and StaticImageData
   style?: React.CSSProperties; // Optional style prop
 }
 
@@ -43,7 +44,12 @@ export default function Servicessection({
             />
           </div>
           <div className={styles.servicesflxsectionitem2}>
-            <Image src={image} alt={image} height={1000} width={1000} />
+            <Image 
+              src={image} 
+              alt={typeof image === 'string' ? image : image.src}
+              height={1000} 
+              width={1000} 
+            />
           </div>
         </div>
       </div>

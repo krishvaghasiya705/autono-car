@@ -1,0 +1,92 @@
+.read-more-button-light {
+    border-radius: 8px;
+    border: 1px solid var(--colorblack);
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+
+    .read-more-button-textdiv {
+        padding: 9px 16px;
+        border-right: 1px solid var(--colorblack);
+        height: 100%;
+        width: 100%;
+        transition: .4s ease-in-out;
+
+        span {
+            transition: .4s ease-in-out;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 23px;
+            color: var(--colorblack);
+            font-family: var(--font-family1);
+        }
+
+        &:hover {
+            background-color: var(--colorblack);
+
+            span {
+                color: var(--colorwhite);
+            }
+        }
+    }
+
+    .read-more-button-arrowdiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 13px;
+        height: 100%;
+
+        svg {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+.read-more-button-dark {
+    border-radius: 8px;
+    border: 1px solid var(--colorwhite);
+    background-color: var(--transparent);
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+
+    .read-more-button-textdiv {
+        padding: 9px 16px;
+        border-right: 1px solid var(--colorwhite);
+        height: 100%;
+        width: 100%;
+        transition: .4s ease-in-out;
+
+        span {
+            transition: .4s ease-in-out;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 23px;
+            color: var(--colorwhite);
+            font-family: var(--font-family1);
+        }
+
+        &:hover {
+            background-color: var(--colorwhite);
+
+            span {
+                color: var(--colorblack);
+            }
+        }
+    }
+
+    .read-more-button-arrowdiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 13px;
+        height: 100%;
+
+        svg {
+            width: 16px;
+            height: 16px;
+            fill: #fff;
+        }
+    }
+}

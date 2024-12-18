@@ -3,13 +3,22 @@ import styles from "./servicessection.module.scss";
 import Image from "next/image";
 import { Button1 } from "@/components/buttons/button";
 
+// Define the props type
+interface ServicessectionProps {
+  title: string; // Type for the title
+  paragraph: string; // Type for the paragraph
+  buttonlink: string; // Type for the button link
+  image: string; // Type for the image source
+  style?: React.CSSProperties; // Optional style prop
+}
+
 export default function Servicessection({
   title,
   paragraph,
   buttonlink,
   image,
   style,
-}) {
+}: ServicessectionProps) { // Use the defined type
   return (
     <div className={styles.servicessectionmain}>
       <div className="container2">

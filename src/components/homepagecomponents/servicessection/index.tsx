@@ -4,13 +4,12 @@ import Image from "next/image";
 import { Button1 } from "@/components/buttons/button";
 import { StaticImageData } from "next/image";
 
-// Define the props type
 interface ServicessectionProps {
-  title: string; // Type for the title
-  paragraph: string; // Type for the paragraph
-  buttonlink: string; // Type for the button link
-  image: string | StaticImageData; // Type for the image source, allowing both string and StaticImageData
-  style?: React.CSSProperties; // Optional style prop
+  title: string;
+  paragraph: string;
+  buttonlink: string;
+  image: string | StaticImageData;
+  style?: React.CSSProperties;
 }
 
 export default function Servicessection({
@@ -19,7 +18,7 @@ export default function Servicessection({
   buttonlink,
   image,
   style,
-}: ServicessectionProps) { // Use the defined type
+}: ServicessectionProps) {
   return (
     <div className={styles.servicessectionmain}>
       <div className="container2">

@@ -15,7 +15,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <link rel="canonical" href="https://autono-car.netlify.app/" />
 
         {/* Font-Family */}
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet"
+        />
 
         {/* Favicon Links */}
         <link rel="icon" href="./favicon.ico" />

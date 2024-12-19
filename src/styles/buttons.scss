@@ -77,7 +77,7 @@
             background-color: var(--colorwhite);
 
             span {
-                color: var(--colorblack);
+                color: var(--colorblack) !important;
             }
         }
     }

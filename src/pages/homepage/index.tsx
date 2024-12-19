@@ -10,10 +10,14 @@ import Whyautonosection from "@/components/homepagecomponents/whyautonosection";
 import Autononumberssection from "@/components/homepagecomponents/autononumbersection";
 import Industrysection from "@/components/homepagecomponents/industrysection";
 import Careerssection from "@/components/homepagecomponents/careerssection";
+import CanvasCursor from "@/cursors/cursorimports/cursorimport1";
+import FluidCursor from "@/cursors/cursorimports/cursorimport2";
 
 export default function Homepgage() {
   return (
     <>
+      {/* <CanvasCursor /> */}
+      {/* <FluidCursor /> */}
       <Homeherobanner />
       <Visionsection />
       <Servicessection

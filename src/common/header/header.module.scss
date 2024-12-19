@@ -48,10 +48,32 @@
           letter-spacing: 0.5px;
           color: var(--colorblack);
           font-family: var(--font-family1);
+          position: relative;
           transition: 0.4s ease-in-out;
 
           &:hover {
             color: var(--darkorange);
+
+            &::before {
+              transform: scaleX(1) translateX(-50%);
+              transform-origin: left;
+              transition: transform .3s ease;
+            }
+          }
+
+          &::before {
+            background: var(--colorblack);
+            bottom: 15px;
+            content: " ";
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            right: 50%;
+            transform: scaleX(0) translateX(-50%);
+            transform-origin: left;
+            transition: transform .3s ease;
+            z-index: -1;
+            width: 70%;
           }
         }
       }

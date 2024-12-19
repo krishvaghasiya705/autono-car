@@ -2,16 +2,19 @@
     border-radius: 8px;
     border: 1px solid var(--colorblack);
     display: flex;
+    align-items: stretch;
+    justify-content: center;
     overflow: hidden;
     cursor: pointer;
-
+    height: 40px;
+    
     .read-more-button-textdiv {
         padding: 9px 16px;
         border-right: 1px solid var(--colorblack);
         height: 100%;
         width: 100%;
         transition: .4s ease-in-out;
-
+        
         span {
             transition: .4s ease-in-out;
             font-size: 16px;
@@ -20,10 +23,10 @@
             color: var(--colorblack);
             font-family: var(--font-family1);
         }
-
+        
         &:hover {
             background-color: var(--colorblack);
-
+            
             span {
                 color: var(--colorwhite);
             }
@@ -36,7 +39,7 @@
         align-items: center;
         padding: 12px 13px;
         height: 100%;
-
+        
         svg {
             width: 16px;
             height: 16px;
@@ -48,8 +51,11 @@
     border: 1px solid var(--colorwhite);
     background-color: var(--transparent);
     display: flex;
+    align-items: stretch;
+    justify-content: center;
     overflow: hidden;
     cursor: pointer;
+    height: 40px;
 
     .read-more-button-textdiv {
         padding: 9px 16px;

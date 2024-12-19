@@ -9,6 +9,7 @@ import Carimage4 from "@/assets/images/carimage4.webp";
 import Whyautonosection from "@/components/homepagecomponents/whyautonosection";
 import Autononumberssection from "@/components/homepagecomponents/autononumbersection";
 import Industrysection from "@/components/homepagecomponents/industrysection";
+import Careerssection from "@/components/homepagecomponents/careerssection";
 
 export default function Homepgage() {
   return (
@@ -33,6 +34,7 @@ export default function Homepgage() {
       <Whyautonosection />
       <Autononumberssection />
       <Industrysection />
+      <Careerssection />
     </>
   );
 }

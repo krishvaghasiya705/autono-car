@@ -1,0 +1,147 @@
+.careerssectionmain {
+    padding: 121px 0;
+    background-color: var(--colorblack);
+    border-top: 1px solid var(--colorwhite);
+
+    .careerssection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .careerssectionitem1 {
+            padding: 0 0 0 70px;
+            position: relative;
+            width: 50%;
+            height: 100%;
+
+            span {
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 18px;
+                color: var(--colorwhite);
+                font-family: var(--font-family1);
+            }
+
+            h2 {
+                margin: 42px 0 80px 0;
+                font-size: 25px;
+                font-weight: 500;
+                line-height: 45px;
+                color: var(--colorwhite);
+                font-family: var(--font-family1);
+                word-spacing: 3px;
+                letter-spacing: 1px;
+                max-width: 375px;
+            }
+
+            .cusoverflowdesignemain {
+                position: absolute;
+                top: 0;
+                left: 20px;
+                width: 0;
+                height: 100%;
+
+                .cusoverflowdesigne {
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+
+                    .cusoverflowdesigneline {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 2px;
+                        height: 100%;
+                        background-color: var(--colorwhite);
+                        opacity: 0.5;
+                    }
+
+                    .cusoverflowdesignethumb {
+                        position: absolute;
+                        top: 60px;
+                        left: 2px;
+                        width: 3px;
+                        height: 190px;
+                        background-color: var(--colorwhite);
+                    }
+                }
+            }
+        }
+
+        .careerssectionitem2 {
+            width: 100%;
+            max-width: 420px;
+            height: 100%;
+
+            :global(.slick-arrow) {
+                display: none !important;
+            }
+
+            :global(.slick-dots li.slick-active button:before) {
+                color: var(--colorwhite);
+            }
+
+            :global(.slick-dots) {
+                bottom: 30px;
+                display: flex !important;
+                justify-content: center;
+                align-items: center;
+
+                li,
+                li button {
+                    padding: 0;
+                    width: 8px;
+                    height: 8px;
+                }
+
+                li button:before {
+                    top: -8px;
+                    width: 8px;
+                    height: 8px;
+                    opacity: 1;
+                    color: var(--colorfaded1);
+                }
+            }
+
+            .fadedsliderdivmain {
+                width: 100%;
+                max-width: 420px;
+                height: 536px;
+                border: 1px solid var(--colorwhite);
+                border-radius: 16px;
+                padding: 40px 35px 80px 35px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                span {
+                    font-size: 18px;
+                    line-height: 22px;
+                    font-weight: 400;
+                    color: var(--colorwhite);
+                    font-family: var(--font-family1);
+                }
+
+                small {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    color: var(--colorfaded1);
+                    font-family: var(--font-family1);
+                    margin: 0 0 16px 0;
+                    display: block;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    letter-spacing: 2px;
+                    word-spacing: 1px;
+                    color: var(--colorwhite);
+                    font-family: var(--font-family1);
+                }
+            }
+        }
+    }
+}

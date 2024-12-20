@@ -1,7 +1,8 @@
 "use client";
-import Header from "@/common/header/Header";
 import React from "react";
 import "../styles/buttons.scss";
+import Header from "@/common/header/Header";
+import Footer from "@/common/footer/Footer";
 import "@/styles/container.scss";
 import "@/styles/globals.scss";
 import "@/styles/theme.scss";
@@ -77,7 +78,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       <body>
         <Header />
         <main>{children}</main>
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

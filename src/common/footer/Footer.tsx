@@ -58,16 +58,16 @@ export default function Footer() {
               </p>
               <div className={styles.footerflxitems2bodyemailinputalignment}>
                 <div className={styles.footerflxitems2bodyemailinputdiv}>
-                  <label>Email*</label>
-                  <input type="email" />
+                  <label htmlFor="email">Email*</label>
+                  <input type="email" id="email" area-label="email" />
                 </div>
                 <Link href={"/"}>
                   <button type="button">Subscribe</button>
                 </Link>
               </div>
               <div className={styles.cehckboxdivmain}>
-                <input type="checkbox" />
-                <p>Yes, subscribe me to your newsletter.</p>
+                <input type="checkbox" id="subscribeCheckbox" area-label="checkbox" />
+                <label htmlFor="subscribeCheckbox">Yes, subscribe me to your newsletter.</label>
               </div>
             </div>
           </div>

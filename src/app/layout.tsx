@@ -6,6 +6,8 @@ import Footer from "@/common/footer/Footer";
 import "@/styles/container.scss";
 import "@/styles/globals.scss";
 import "@/styles/theme.scss";
+import CanvasCursor from "@/cursors/cursorimports/cursorimport1";
+import FluidCursor from "@/cursors/cursorimports/cursorimport2";
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
@@ -76,6 +78,8 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <meta name="googlebot" content="index, follow" />
       </head>
       <body>
+        <CanvasCursor />
+        {/* <FluidCursor /> */}
         <Header />
         <main>{children}</main>
         <Footer />

@@ -16,7 +16,7 @@ import FluidCursor from "@/cursors/cursorimports/cursorimport2";
 export default function Homepgage() {
   return (
     <>
-      {/* <CanvasCursor /> */}
+      <CanvasCursor />
       {/* <FluidCursor /> */}
       <Homeherobanner />
       <Visionsection />

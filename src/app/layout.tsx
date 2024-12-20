@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/buttons.scss";
 import Header from "@/common/header/Header";
 import Footer from "@/common/footer/Footer";
@@ -8,8 +8,19 @@ import "@/styles/globals.scss";
 import "@/styles/theme.scss";
 import CanvasCursor from "@/cursors/cursorimports/cursorimport1";
 import FluidCursor from "@/cursors/cursorimports/cursorimport2";
+import Loader from "@/components/loader";
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <html lang="en">
       <head>
@@ -81,7 +92,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <CanvasCursor />
         {/* <FluidCursor /> */}
         <Header />
-        <main>{children}</main>
+        {loading ? <Loader /> : <main>{children}</main>}
         <Footer />
       </body>
     </html>

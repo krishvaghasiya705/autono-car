@@ -1,0 +1,41 @@
+.loadermainlayout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorblack);
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        width: 25vw;
+        height: 50vh;
+    }
+
+    .Autonoloadericon1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: Rotate 4s linear infinite;
+
+        @keyframes Rotate {
+            0% {
+                rotate: 0deg;
+            }
+
+            100% {
+                rotate: 360deg;
+            }
+        }
+    }
+
+    .Autonoloadericon2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

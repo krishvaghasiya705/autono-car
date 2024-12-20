@@ -47,7 +47,7 @@ export default function Careerssection() {
     },
   ];
 
-  console.log(FadedSliderData)
+  console.log(FadedSliderData);
   return (
     <div className={styles.careerssectionmain}>
       <div className="container2">
@@ -69,8 +69,8 @@ export default function Careerssection() {
           <div className={styles.careerssectionitem2}>
             <Slider {...Fadedslider}>
               {FadedSliderData.map((item) => (
-                <div>
-                  <div key={item.id} className={styles.fadedsliderdivmain}>
+                <div key={item.id}>
+                  <div className={styles.fadedsliderdivmain}>
                     <span>{item.title}</span>
                     <div>
                       <small>{item.small}</small>

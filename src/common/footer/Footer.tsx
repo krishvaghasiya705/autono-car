@@ -15,7 +15,7 @@ export default function Footer() {
         <div className={styles.footerflxmain}>
           <div className={styles.footerflxitems1}>
             <div className={styles.footerflxitems1head}>
-              <Link href={"/"}>
+              <Link href={"/"} aria-label="logo">
                 <Logo />
               </Link>
             </div>

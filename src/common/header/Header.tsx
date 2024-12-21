@@ -45,7 +45,7 @@ export default function Header() {
       <div className="container1">
         <div className={styles.headermainalignment}>
           <div className={styles.headerlogo}>
-            <Link href={"/"}>
+            <Link href={"/"} aria-label="logo">
               <Logo />
             </Link>
           </div>

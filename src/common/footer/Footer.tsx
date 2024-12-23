@@ -22,13 +22,13 @@ export default function Footer() {
             <div className={styles.footerflxitems1body}>
               <div className={styles.footerflxitems1bodyflxitem1}>
                 <p>
-                  <Link href={"/"}>Technology</Link>
+                  <Link href={"/technology"}>Technology</Link>
                 </p>
                 <p>
-                  <Link href={"/"}>About</Link>
+                  <Link href={"/about"}>About</Link>
                 </p>
                 <p>
-                  <Link href={"/"}>Careers</Link>
+                  <Link href={"/career"}>Careers</Link>
                 </p>
               </div>
               <div className={styles.footerflxitems1bodyflxitem2}>

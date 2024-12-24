@@ -13,26 +13,31 @@ export default function Autononewssection() {
       logo: Rcrlogo,
       width: 136,
       height: 48,
+      id: "autononewssectionbodyitems1",
     },
     {
       logo: Tbreviewlogo,
       width: 136,
       height: 28,
+      id: "autononewssectionbodyitems2",
     },
     {
       logo: financelogo,
       width: 136,
       height: 18,
+      id: "autononewssectionbodyitems3",
     },
     {
       logo: palologo,
       width: 136,
       height: 33,
+      id: "autononewssectionbodyitems4",
     },
     {
       logo: londonpostlogo,
       width: 136,
       height: 95,
+      id: "autononewssectionbodyitems5",
     },
   ];
   return (
@@ -54,6 +59,7 @@ export default function Autononewssection() {
             {logos.map((item) => (
               <div className={styles.autononewssectionbodyitems}>
                 <Image
+                  id={item.id}
                   src={item.logo}
                   alt="logo"
                   width={item.width}

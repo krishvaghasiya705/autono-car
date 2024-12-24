@@ -45,87 +45,103 @@ export default function Journeysection() {
         </div>
         <div className={styles.journeysectionbodymain}>
           <Slider {...Journeyslider}>
-            <div className={styles.journeysectionsliderbody}>
-              <div className={styles.journeysectionbodycard1}>
-                <h4>2013</h4>
-                <span>AUTONO IS FOUNDED</span>
-                <p>
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me to add
-                  your own content and make changes to the font.
-                </p>
+            <div className={styles.journeysectionsliderbodymain}>
+              <div className={styles.journeysectionsliderbody}>
+                <div className={styles.journeysectionbodycard1}>
+                  <h4>2013</h4>
+                  <span>AUTONO IS FOUNDED</span>
+                  <p>
+                    I'm a paragraph. Click here to add your own text and edit
+                    me. It’s easy. Just click “Edit Text” or double click me to
+                    add your own content and make changes to the font.
+                  </p>
+                </div>
+                <div className={styles.journeysectionbodycard2}>
+                  <h4>2015</h4>
+                  <span>GROUNDBREAKING SENSOR TECHNOLOGY LAUNCHED</span>
+                  <p>
+                    I'm a paragraph. Click here to add your own text and edit
+                    me. It’s easy. Just click “Edit Text” or double click me to
+                    add your own content and make changes to the font.
+                  </p>
+                </div>
               </div>
-              <div className={styles.journeysectionbodycard2}>
-                <h4>2015</h4>
-                <span>GROUNDBREAKING SENSOR TECHNOLOGY LAUNCHED</span>
-                <p>
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me to add
-                  your own content and make changes to the font.
-                </p>
-              </div>
+              <div className={styles.slidersmallline1}></div>
+              <div className={styles.slidersmallline2}></div>
             </div>
-            <div className={styles.journeysectionsliderbody}>
-              <div className={styles.journeysectionbodycard3}>
-                <h4>2016</h4>
-                <span>SAN FRANCISCO HQ OPENS</span>
-                <p>
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me to add
-                  your own content and make changes to the font.
-                </p>
+            <div className={styles.journeysectionsliderbodymain}>
+              <div className={styles.journeysectionsliderbody}>
+                <div className={styles.journeysectionbodycard3}>
+                  <h4>2016</h4>
+                  <span>SAN FRANCISCO HQ OPENS</span>
+                  <p>
+                    I'm a paragraph. Click here to add your own text and edit
+                    me. It’s easy. Just click “Edit Text” or double click me to
+                    add your own content and make changes to the font.
+                  </p>
+                </div>
+                <div className={styles.journeysectionbodycard4}>
+                  <h4>2017</h4>
+                  <span>FIRST PROTOTYPE IS TEST-DRIVEN</span>
+                  <p>
+                    I'm a paragraph. Click here to add your own text and edit
+                    me. It’s easy. Just click “Edit Text” or double click me to
+                    add your own content and make changes to the font.
+                  </p>
+                </div>
               </div>
-              <div className={styles.journeysectionbodycard4}>
-                <h4>2017</h4>
-                <span>FIRST PROTOTYPE IS TEST-DRIVEN</span>
-                <p>
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me to add
-                  your own content and make changes to the font.
-                </p>
-              </div>
+              <div className={styles.slidersmallline1}></div>
+              <div className={styles.slidersmallline2}></div>
             </div>
-            <div className={styles.journeysectionsliderbody}>
-              <div className={styles.journeysectionbodycard1}>
-                <h4>2018</h4>
-                <span>
-                  PARTNERSHIP WITH TRI-NEX & GENERAL TRANSPORT INITIATED
-                </span>
-                <p>
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me to add
-                  your own content and make changes to the font.
-                </p>
+            <div className={styles.journeysectionsliderbodymain}>
+              <div className={styles.journeysectionsliderbody}>
+                <div className={styles.journeysectionbodycard1}>
+                  <h4>2018</h4>
+                  <span>
+                    PARTNERSHIP WITH TRI-NEX & GENERAL TRANSPORT INITIATED
+                  </span>
+                  <p>
+                    I'm a paragraph. Click here to add your own text and edit
+                    me. It’s easy. Just click “Edit Text” or double click me to
+                    add your own content and make changes to the font.
+                  </p>
+                </div>
+                <div className={styles.journeysectionbodycard2}>
+                  <h4>2019</h4>
+                  <span>TESTING EXPANDS TO ARIZONA & NEW MEXICO</span>
+                  <p>
+                    I'm a paragraph. Click here to add your own text and edit
+                    me. It’s easy. Just click “Edit Text” or double click me to
+                    add your own content and make changes to the font.
+                  </p>
+                </div>
               </div>
-              <div className={styles.journeysectionbodycard2}>
-                <h4>2019</h4>
-                <span>TESTING EXPANDS TO ARIZONA & NEW MEXICO</span>
-                <p>
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me to add
-                  your own content and make changes to the font.
-                </p>
-              </div>
+              <div className={styles.slidersmallline1}></div>
+              <div className={styles.slidersmallline2}></div>
             </div>
-            <div className={styles.journeysectionsliderbody}>
-              <div className={styles.journeysectionbodycard3}>
-                <h4>2020</h4>
-                <span>PRODUCTION BEGINS!</span>
-                <p>
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me to add
-                  your own content and make changes to the font.
-                </p>
+            <div className={styles.journeysectionsliderbodymain}>
+              <div className={styles.journeysectionsliderbody}>
+                <div className={styles.journeysectionbodycard3}>
+                  <h4>2020</h4>
+                  <span>PRODUCTION BEGINS!</span>
+                  <p>
+                    I'm a paragraph. Click here to add your own text and edit
+                    me. It’s easy. Just click “Edit Text” or double click me to
+                    add your own content and make changes to the font.
+                  </p>
+                </div>
+                <div className={styles.journeysectionbodycard4}>
+                  <h4>2021</h4>
+                  <span>FIRST 1,000 CARS SOLD</span>
+                  <p>
+                    I'm a paragraph. Click here to add your own text and edit
+                    me. It’s easy. Just click “Edit Text” or double click me to
+                    add your own content and make changes to the font.
+                  </p>
+                </div>
               </div>
-              <div className={styles.journeysectionbodycard4}>
-                <h4>2021</h4>
-                <span>FIRST 1,000 CARS SOLD</span>
-                <p>
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  It’s easy. Just click “Edit Text” or double click me to add
-                  your own content and make changes to the font.
-                </p>
-              </div>
+              <div className={styles.slidersmallline1}></div>
+              <div className={styles.slidersmallline2}></div>
             </div>
           </Slider>
         </div>

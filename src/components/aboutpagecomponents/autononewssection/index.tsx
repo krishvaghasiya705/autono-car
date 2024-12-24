@@ -11,23 +11,33 @@ export default function Autononewssection() {
   const logos = [
     {
       logo: Rcrlogo,
+      width: 136,
+      height: 48,
     },
     {
       logo: Tbreviewlogo,
+      width: 136,
+      height: 28,
     },
     {
       logo: financelogo,
+      width: 136,
+      height: 18,
     },
     {
       logo: palologo,
+      width: 136,
+      height: 33,
     },
     {
       logo: londonpostlogo,
+      width: 136,
+      height: 95,
     },
   ];
   return (
     <>
-    <div className={styles.blankimagedivmain}></div>
+      <div className={styles.blankimagedivmain}></div>
       <div className={styles.autononewssectionmain}>
         <div className="container2">
           <div className={styles.autononewssectionhead}>
@@ -43,7 +53,12 @@ export default function Autononewssection() {
           <div className={styles.autononewssectionbody}>
             {logos.map((item) => (
               <div className={styles.autononewssectionbodyitems}>
-                <Image src={item.logo} alt="logo" width={1000} height={1000} />
+                <Image
+                  src={item.logo}
+                  alt="logo"
+                  width={item.width}
+                  height={item.height}
+                />
               </div>
             ))}
           </div>

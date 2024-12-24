@@ -76,7 +76,8 @@
             align-items: center;
 
             img {
-                object-fit: none;
+                // object-fit: none;
+                object-position: 50% 50%;
             }
         }
     }

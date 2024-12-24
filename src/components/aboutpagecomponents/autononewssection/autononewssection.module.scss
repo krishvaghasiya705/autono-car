@@ -79,6 +79,31 @@
                 // object-fit: none;
                 object-position: 50% 50%;
             }
+
+            :global(#autononewssectionbodyitems1) {
+                height: 48px;
+                width: auto;
+            }
+
+            :global(#autononewssectionbodyitems2) {
+                height: 28px;
+                width: auto;
+            }
+
+            :global(#autononewssectionbodyitems3) {
+                height: 18px;
+                width: auto;
+            }
+
+            :global(#autononewssectionbodyitems4) {
+                height: 33px;
+                width: auto;
+            }
+
+            :global(#autononewssectionbodyitems5) {
+                height: 95px;
+                width: auto;
+            }
         }
     }
 }

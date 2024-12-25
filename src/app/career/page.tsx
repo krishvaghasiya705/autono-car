@@ -1,7 +1,10 @@
-import React from 'react'
+import Careerspage from "@/pages/careerspage";
+import React from "react";
 
 export default function Careers() {
   return (
-    <div>Careers</div>
-  )
+    <>
+      <Careerspage />
+    </>
+  );
 }

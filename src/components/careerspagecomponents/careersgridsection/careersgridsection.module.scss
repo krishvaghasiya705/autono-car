@@ -1,0 +1,85 @@
+.careersgridsectionmain {
+    padding: 0 0 120px 0;
+    background-color: var(--colorblack);
+
+    .careersgridsectiongrdmain {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 100px 0;
+
+        .careersgridsectiongrditems1 {
+            display: flex;
+            justify-content: start;
+        }
+
+        .careersgridsectiongrditems2 {
+            display: flex;
+            justify-content: end;
+        }
+
+        .careersgridsectiongrditems1,
+        .careersgridsectiongrditems2 {
+            .careersgridsectiongrditemscard {
+                max-width: 420px;
+                height: 504px;
+                width: 100%;
+                border: 1px solid var(--colorwhite);
+                border-radius: 16px;
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                span {
+                    font-size: 18px;
+                    line-height: 22px;
+                    font-weight: 400;
+                    color: var(--colorwhite);
+                    font-family: var(--font-family1);
+                }
+
+                small {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    color: var(--colorfaded1);
+                    font-family: var(--font-family1);
+                    margin: 0 0 16px 0;
+                    display: block;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    letter-spacing: 2px;
+                    word-spacing: 1px;
+                    color: var(--colorwhite);
+                    font-family: var(--font-family1);
+                }
+            }
+        }
+
+        .careersgridsectiongrditemscard2 {
+            max-width: 420px;
+            width: 100%;
+            background-color: var(--colorwhite);
+            padding: 50px 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            border-radius: 16px;
+
+            p {
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 40px;
+                letter-spacing: 2px;
+                word-spacing: 2px;
+                max-width: 340px;
+                color: var(--colorblack);
+                font-family: var(--font-family1);
+            }
+        }
+    }
+}

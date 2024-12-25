@@ -1,0 +1,85 @@
+.careerslocationsectionmain {
+    padding: 120px 0;
+    position: relative;
+    background-color: var(--colorblack);
+
+    .careerssectionflxcontentmain {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 1;
+        padding: 0 0 0 70px;
+
+        .careerstitle {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            color: var(--colorwhite);
+            font-family: var(--font-family1);
+        }
+
+        h2 {
+            margin: 42px 0 60px 0;
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 45px;
+            color: var(--colorwhite);
+            font-family: var(--font-family1);
+            max-width: 400px;
+            word-spacing: 3px;
+            letter-spacing: 1px;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            color: var(--colorwhite);
+            font-family: var(--font-family1);
+            max-width: 400px;
+            word-spacing: 3px;
+            letter-spacing: 1px;
+        }
+
+        .cusoverflowdesignemain {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+
+            .cusoverflowdesigne {
+                width: 100%;
+                height: 100%;
+                position: relative;
+
+                .cusoverflowdesigneline {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 2px;
+                    height: 100%;
+                    background-color: var(--colorwhite);
+                    opacity: .5;
+                }
+
+                .cusoverflowdesignethumb {
+                    position: absolute;
+                    top: 60px;
+                    left: 2px;
+                    width: 3px;
+                    height: 90px;
+                    background-color: var(--colorwhite);
+                }
+            }
+        }
+    }
+
+    .careerslocationsectionimagediv {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+    }
+}

@@ -76,8 +76,8 @@ export default function Footer() {
         <div className={styles.footerbottommain}>
           <div className={styles.footercopyrighttext}>
             <p>
-              © 2035 by Autono. Powered and secured by{" "}
-              <Link href={"/"}>KRISH</Link>
+              © 2035 by Autono. Powered and secured by
+              <Link href={"https://github.com/krishvaghasiya705"} target="_blank">KRISH</Link>
             </p>
           </div>
           <div className={styles.footersocialmediaiconsdivmain}>

@@ -89,7 +89,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <meta name="googlebot" content="index, follow" />
       </head>
       <body>
-        {/* <CanvasCursor /> */}
+        <CanvasCursor />
         {/* <FluidCursor /> */}
         <Header />
         {loading ? <Loader /> : <main>{children}</main>}

@@ -1,10 +1,14 @@
 import Careersdetailsherobanner from "@/components/careersdetailspagecomponents/careersdetailspage/careersdetailsherobanner";
-import React from "react";
+import React, { ReactNode } from "react";
 
-export default function Electricengineersdetailspage() {
+interface Electricengineersdetailspageprop {
+  maintitle: ReactNode;
+}
+
+export default function Electricengineersdetailspage({ maintitle }: Electricengineersdetailspageprop) {
   return (
     <>
-      <Careersdetailsherobanner />
+      <Careersdetailsherobanner title={maintitle} />
     </>
   );
 }

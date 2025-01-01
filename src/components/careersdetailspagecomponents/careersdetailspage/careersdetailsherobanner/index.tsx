@@ -1,13 +1,17 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import styles from "./careersdetailsherobanner.module.scss";
 
-export default function Careersdetailsherobanner() {
+interface Careersdetailsherobannerprop {
+  title: ReactNode;
+}
+
+export default function Careersdetailsherobanner({ title }: Careersdetailsherobannerprop) {
   return (
     <div className={styles.careersdetailsherobannermain}>
       <div className="container2">
         <div className={styles.careersdetailsherobanner}>
           <h1>
-            ELECTRICAL <br /> ENGINEER
+            {title}
           </h1>
           <p className={styles.careersdetailsherobannerparagraph}>
             I'm a paragraph. Click here to add your own text and edit me. It’s

@@ -17,7 +17,7 @@ const careersgriddata = [
     location: "San Francisco, CA",
     description:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
-    link: "/",
+    link: "/data-scientist",
     buttonClass: "read-more-button-dark",
     buttonText: "Apply Now",
   },
@@ -26,7 +26,7 @@ const careersgriddata = [
     location: "San Francisco, CA",
     description:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
-    link: "/",
+    link: "/artificial-intelligence-researchers",
     buttonClass: "read-more-button-dark",
     buttonText: "Apply Now",
   },
@@ -35,7 +35,7 @@ const careersgriddata = [
     location: "San Francisco, CA",
     description:
       "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
-    link: "/",
+    link: "/deep-learning-engineer",
     buttonClass: "read-more-button-dark",
     buttonText: "Apply Now",
   },
@@ -75,7 +75,7 @@ export default function Careersgridsection() {
                 Didn't find the position you're looking for? Send us your CV
               </p>
               <Button1
-                link={"/"}
+                link={"/join-us"}
                 Class="read-more-button-light"
                 text="Submit"
               />

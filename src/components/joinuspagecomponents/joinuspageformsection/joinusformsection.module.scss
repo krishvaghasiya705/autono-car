@@ -1,0 +1,185 @@
+.joinusformsectionmain {
+    padding: 70px 0;
+
+    form {
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+
+        h2 {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            color: var(--colorblack);
+            font-family: var(--font-family1);
+            margin: 0 0 30px 0;
+        }
+
+        .joinusformgroup {
+            margin: 0 0 30px 0;
+
+            label {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 2px;
+                word-spacing: 2px;
+                color: var(--colorblack);
+                font-family: var(--font-family1);
+                margin: 0 0 8px 0;
+                display: block;
+            }
+
+            input {
+                border: 1px solid var(--colorblack);
+                background-color: var(--transparent);
+                border-radius: 8px;
+                width: 100%;
+                // height: 40px;
+                padding: 8px 12px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 2px;
+                word-spacing: 2px;
+                color: var(--colorblack);
+                font-family: var(--font-family1);
+            }
+            textarea {
+                border: 1px solid var(--colorblack);
+                background-color: var(--transparent);
+                border-radius: 8px;
+                width: 100%;
+                height: 92px;
+                padding: 8px 12px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 2px;
+                word-spacing: 2px;
+                color: var(--colorblack);
+                font-family: var(--font-family1);
+                resize: none;
+                
+                &::placeholder {
+                    color: var(--colorblack);
+                    font-weight: 500;
+                }
+            }
+
+            .dropdowndivmain {
+                position: relative;
+                width: 100%;
+                height: 40px;
+                border: 1px solid var(--colorblack);
+                background-color: var(--transparent);
+                border-radius: 8px;
+                padding: 8px 12px;
+                cursor: pointer;
+
+                &.active {
+                    border-color: var(--colorprimary);
+                }
+
+                .dropdowndivalignment {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        letter-spacing: 2px;
+                        word-spacing: 2px;
+                        color: var(--colorblack);
+                        font-family: var(--font-family1);
+                    }
+
+                    .dropdownicon {
+                        width: 24px;
+                        height: 24px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transition: .4s ease-in-out;
+
+                        &.dropdowniconactive {
+                            transition: .4s ease-in-out;
+                            transform: rotate(180deg);
+                        }
+                    }
+                }
+
+                .dropdownbodymain {
+                    position: absolute;
+                    top: 39px;
+                    left: 0;
+                    width: 100%;
+                    height: 224px;
+                    overflow-y: auto;
+                    z-index: 9;
+                    background-color: var(--colorwhite);
+                    border: 1px solid var(--colorblack);
+                    border-radius: 8px;
+
+                    .dropdownbody {
+                        padding: 12px 0;
+
+                        .dropdownbodytextsdivalignment {
+                            padding: 8px 12px;
+                            transition: .4s ease-in-out;
+
+                            p {
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 22px;
+                                letter-spacing: 2px;
+                                word-spacing: 2px;
+                                color: var(--colorblack);
+                                font-family: var(--font-family1);
+                                margin: 0 12px;
+                            }
+
+                            &:hover {
+                                background-color: var(--bgltpink);
+                            }
+
+                            &.selected {
+                                background-color: var(--bgltblue);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            padding: 11px 15px;
+            background-color: var(--colorblack);
+            color: var(--colorwhite);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            font-family: var(--font-family1);
+            border: 1px solid var(--colorblack);
+            max-width: 225px;
+            width: 100%;
+            cursor: pointer;
+            transition: .4s ease-in-out;
+
+            &:hover {
+                background-color: var(--colorwhite);
+                color: var(--colorblack);
+            }
+        }
+    }
+}
